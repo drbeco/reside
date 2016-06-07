@@ -66,14 +66,14 @@ Diretorio Residente - Exemplo de utilizacao da Biblioteca RESIDE.C
 * rdir.c
 * rdir.prj
 * rdir.exe
-* 
+ 
 ### relogio
 
 Liga um relogio no canto superior direito da tela, exemplificando a utilizacao da interrupcao de relogio.
 
 * relogio.c
 * relogio.exe
-* 
+ 
 ### reside
 
 Biblioteca de Residencia para Turbo C versao 1.5 ou superior
@@ -83,7 +83,7 @@ Biblioteca de Residencia para Turbo C versao 1.5 ou superior
 
 ### scan
 
-Desvia a interrupcao de teclado, e mostra os codigos (SCAN CODE) de cada tecla pressiona, bem como as teclas de SHIFT. O programa termina com  o  pressionamento da tecla ESC.
+Desvia a interrupcao de teclado, e mostra os codigos (SCAN CODE) de cada tecla pressiona, bem como as teclas de SHIFT. O programa termina com o pressionamento da tecla ESC.
 
 * scan.c
 * scan.exe
