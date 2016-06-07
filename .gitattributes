@@ -1,0 +1,31 @@
+# Com text=auto, configura o git para: 
+#   -trocar CRLF por LF na entrada
+#   -trocar seletivamente LF para CRLF na saida (dependendo do SO)
+# para arquivos detectados como texto e NAO descritos abaixo
+
+* text=auto
+
+# Declara explicitamente como o arquivo deve ser tratado
+# padrao text : troca de acordo com o sistema
+# padrao text eol=crlf : mantem sempre CRLF
+# padrao text eol=lf : mantem sempre LF
+# padrao binary : trata como binario e nao mexe
+
+# Fontes
+
+*.c text eol=crlf
+*.h text eol=crlf
+*.prj text eol=crlf
+*.sh text eol=lf
+*.gitignore text
+*.gitattributes text
+*.md text
+LICENSE text
+
+# Binarios
+
+*.png binary
+*.jpg binary
+*.exe binary
+*.x binary
+
