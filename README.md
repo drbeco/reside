@@ -94,3 +94,8 @@ Liga ou Desliga o video atraves do pressionamento das teclas ALT ESC, exemplific
 
 * video.c
 * video.exe
+
+## Notas
+
+* Este repositório está configurado para preservar as terminações CRLF típicas do final de linha DOS/Windows.
+
